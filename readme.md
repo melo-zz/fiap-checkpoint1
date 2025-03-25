@@ -42,6 +42,9 @@ Copiar
     "dataPedido": "2025-03-25",
     "valorTotal": 150.0
 }
+![alt text](image-2.png)
+![alt text](image-3.png)
+
 2. Listar todos os pedidos
 Método: GET
 
@@ -59,6 +62,9 @@ Copiar
         "valorTotal": 150.0
     }
 ]
+![alt text](image-4.png)
+![alt text](image-5.png)
+
 3. Buscar um pedido por ID
 Método: GET
 
@@ -74,6 +80,9 @@ Copiar
     "dataPedido": "2025-03-25",
     "valorTotal": 150.0
 }
+![alt text](image-6.png)
+![alt text](image-7.png)
+
 4. Atualizar um pedido
 Método: PUT
 
@@ -97,12 +106,17 @@ Copiar
     "dataPedido": "2025-03-25",
     "valorTotal": 200.0
 }
+![alt text](image-8.png)
+![alt text](image-9.png)
+
 5. Deletar um pedido
 Método: DELETE
 
 URL: /pedidos/{id}
 
 Resposta: 204 No Content
+![alt text](image-11.png)
+![alt text](image-10.png)
 
 Banco de Dados
 A aplicação utiliza o H2 Database para armazenamento dos dados. O banco de dados é em memória, ou seja, os dados são descartados quando a aplicação é finalizada.
@@ -157,4 +171,3 @@ Se você gostaria de contribuir com o projeto, sinta-se à vontade para fazer um
 
 Licença
 Este projeto está licenciado sob a MIT License.
-
