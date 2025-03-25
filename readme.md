@@ -165,9 +165,3 @@ GET /pedidos/{id}: Retorna um pedido pelo ID.
 PUT /pedidos/{id}: Atualiza um pedido.
 
 DELETE /pedidos/{id}: Deleta um pedido.
-
-Contribuindo
-Se você gostaria de contribuir com o projeto, sinta-se à vontade para fazer um fork, criar uma branch, e enviar um pull request com suas melhorias.
-
-Licença
-Este projeto está licenciado sob a MIT License.
